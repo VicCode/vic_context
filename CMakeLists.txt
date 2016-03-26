@@ -30,7 +30,7 @@ vic_get_source_short_version(CODE_REVISION)
 message(STATUS "CODE_REVISION: ${CODE_REVISION}")
 
 # 设置项目
-project(vic-context LANGUAGES C ASM)
+project(vic-context C ASM)
 include(VicCopyVersion)
 vic_copy_version(${PROJECT_NAME} GLOBAL)
 message(STATUS "${PROJECT_NAME} version: ${${PROJECT_NAME}_VERSION}")
