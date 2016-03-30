@@ -1,13 +1,11 @@
 #pragma once
 
+#include <inttypes.h>
 #include <stdbool.h>
 
 #ifdef	__cplusplus
 extern "C" {
 #endif
-
-typedef void * intptr_t;
-typedef unsigned long size_t;
 
 struct vic_context;
 
