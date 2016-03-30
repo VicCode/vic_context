@@ -103,7 +103,7 @@ add_subdirectory(src)
 if(BUILD_WITHOUT_EXAMPLE)
     message(STATUS "Build without example project.")
 else()
-    #add_subdirectory(example)
+    add_subdirectory(example)
 endif()
 
 if(BUILD_WITHOUT_UNITTEST)
