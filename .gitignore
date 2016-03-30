@@ -33,3 +33,6 @@
 
 tmp/*
 lib/*
+bin/*
+tarball/*
+tarball.tar.gz
