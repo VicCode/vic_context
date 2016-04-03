@@ -48,7 +48,7 @@ set(CMAKE_PACKAGE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/${PACKAGE_DIR_NAME}")
 
 # 设置C编译参数
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu99 -Wall -Werror -fno-strict-aliasing")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror -fno-strict-aliasing")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror -fno-strict-aliasing")
 #if(CMAKE_C_COMPILER STREQUAL clang)
 #    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-error=unused-const-variable")
 #endif()
