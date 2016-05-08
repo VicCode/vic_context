@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 
 #include <vic/context.h>
 
@@ -17,7 +17,7 @@ void child_entry(intptr_t argv) {
 int32_t main(int32_t argc, char *argv[]) {
     unsigned long count = 10000;
     if (argc > 1) {
-        count = strtoul(argv[1], NULL, 10);
+        count = strtoul(argv[1], 0, 10);
     }
     void *p = malloc(k_stacksize);
     void *sp = (char *)p + k_stacksize;
